@@ -12,4 +12,6 @@ Useful Definitions & Acronyms for the Uninitiated:
 - **NBD:** National Boundaries Dataset; the USGS's geospatial data, accessible online through a WMS, of global boundaries. There are boundaries for countries, US states, reservations, protected lands, you name it.
 Resources:
 ==========
-- `Precipitation data overview<https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html>`_
+- `Precipitation data overview`_
+
+.. _Precipitation data overview: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html
