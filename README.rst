@@ -14,7 +14,9 @@ Useful Definitions & Acronyms for the Uninitiated:
 Resources:
 ==========
 - `Precipitation data overview`_
-- `WMS information from the OGC`_
+- `WMS information`_  from the OGC
+- `WMS GetCapabilities request` (**USGS** **NBD**)
 
 .. _Precipitation data overview: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html
-.. _WMS information from the OGC: https://www.ogc.org/standard/wms/
+.. _WMS information: https://www.ogc.org/standard/wms/
+.. _WMS GetCapabilities request: https://www.sciencebase.gov/catalogMaps/mapping/ows/4f70b219e4b058caae3f8e19?service=wms&request=getcapabilities&version=1.3.0
