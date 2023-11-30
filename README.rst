@@ -13,5 +13,7 @@ Useful Definitions & Acronyms for the Uninitiated:
 Resources:
 ==========
 - `Precipitation data overview`_
+- `WMS information from the OGC`
 
 .. _Precipitation data overview: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html
+.. _WMS information from the OGC: https://www.ogc.org/standard/wms/
