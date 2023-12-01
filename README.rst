@@ -2,7 +2,8 @@ NOAA Precipitation Data:
 ========================
 Useful Definitions & Acronyms for the Uninitiated:
 ==================================================
-- **NOAA:** The National Oceanic and Atmospheric Administration; the US agecy responsible for for dealing with climate and the like
+- **NOAA:** National Oceanic and Atmospheric Administration; the US agecy responsible for for dealing with climate and the like
+- **NCEI:** National Centers for Environmental Information; an entity under the **NOAA** that collects and distributes environmental data
 - **USGS:** United States Geological Survey; the US agency responsible for monitoring landscape & natural resources
 - **CDO:** Climate Data Online; a service that makes the NOAA's climate data accessible over the web
 - **Geospatial:** Data that is associated with a location, e.g. height stored as a function of global coordinates
@@ -13,10 +14,8 @@ Useful Definitions & Acronyms for the Uninitiated:
 
 Resources:
 ==========
-- `Precipitation data overview`_
-- `WMS information`_  from the OGC
-- `WMS GetCapabilities request`_ (**USGS** **NBD**)
-
-.. _Precipitation data overview: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html
-.. _WMS information: https://www.ogc.org/standard/wms/
-.. _WMS GetCapabilities request: https://www.sciencebase.gov/catalogMaps/mapping/ows/4f70b219e4b058caae3f8e19?service=wms&request=getcapabilities&version=1.3.0
+- `Precipitation Data Overview <https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html>`_ on the NOAA website
+- `Information on the WMS standart <https://www.ogc.org/standard/wms/>`_ from the OGC
+- `WMS GetCapabilities request <https://www.sciencebase.gov/catalogMaps/mapping/ows/4f70b219e4b058caae3f8e19?service=wms&request=getcapabilities&version=1.3.0
+>`_ for the **USGS** **NBD**
+- `OWSLib Documentation <https://owslib.readthedocs.io/en/latest/>`_ (helpful python library)

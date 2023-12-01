@@ -1,0 +1,5 @@
+Update virtualenv requirements:
+pip freeze --local > requirements.txt
+
+Begin virtualenv:
+python3 -m virtualenv -p <path to python version you'd like to use> venv
