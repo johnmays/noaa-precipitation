@@ -15,7 +15,7 @@ Resources:
 ==========
 - `Precipitation data overview`_
 - `WMS information`_  from the OGC
-- `WMS GetCapabilities request` (**USGS** **NBD**)
+- `WMS GetCapabilities request`_ (**USGS** **NBD**)
 
 .. _Precipitation data overview: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html
 .. _WMS information: https://www.ogc.org/standard/wms/
