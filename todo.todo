@@ -1,10 +1,20 @@
 Documentation:
-    ☐ rst file README 
-    https://docs.readthedocs.io/en/stable/tutorial/index.html
+    ✔ rst file README @done(23-12-01 20:12)
     ☐ mention stack
     ☐ mention motivation
-    ☐ mention importat nuance 
+    ✔ add definitions @done(23-12-01 20:12)
+    ☐ describe how data is organized (GSOY, GSOM, by station, etc)
+    ☐ add potential faults (notes about sample size & only measuring from one station)
 
 Code:
-    ☐ download data csv's
-    ☐ 
+    ✔ download data csv's @done(23-12-01 20:12)
+    ☐ draw rainiest places on a map
+    ☐ rank rainiest places by certain metrics and display top ten or so side by side
+    ☐ download a bunch of weather stations at once
+
+Misc:
+    ☐ add a python package obj on GH?
+    ☐ rearrange repo w/ "code" folder & all that
+
+Ideas:
+    ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
