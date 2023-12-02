@@ -4,13 +4,20 @@ Documentation:
     ☐ mention motivation
     ✔ add definitions @done(23-12-01 20:12)
     ☐ describe how data is organized (GSOY, GSOM, by station, etc)
-    ☐ add potential faults (notes about sample size & only measuring from one station)
+    ✔ add potential faults (notes about sample size & only measuring from one station) @done(23-12-02 17:53)
 
 Code:
     ✔ download data csv's @done(23-12-01 20:12)
     ☐ draw rainiest places on a map
-    ☐ rank rainiest places by certain metrics and display top ten or so side by side
-    ☐ download a bunch of weather stations at once
+    ✔ rank rainiest places by certain metrics and display top ten or so side by side @done(23-12-02 17:53)
+    ✔ download a bunch of weather stations at once @done(23-12-02 17:53)
+    ☐ add a side-by-side method for the series
+
+Data:
+    ☐ add Cincinnati to cities comparison
+    ☐ add Rochester back
+    ☐ add Astoria, OR
+    ☐ add Annette, AL ?
 
 Misc:
     ☐ add a python package obj on GH?
@@ -18,3 +25,4 @@ Misc:
 
 Ideas:
     ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
+    ☐ rain lovers score for GSOY and GSOM (GSOY being much simpler)
