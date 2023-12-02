@@ -16,6 +16,5 @@ Resources:
 ==========
 - `Precipitation Data Overview <https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html>`_ on the NOAA website
 - `Information on the WMS standart <https://www.ogc.org/standard/wms/>`_ from the OGC
-- `WMS GetCapabilities request <https://www.sciencebase.gov/catalogMaps/mapping/ows/4f70b219e4b058caae3f8e19?service=wms&request=getcapabilities&version=1.3.0
->`_ for the **USGS** **NBD**
+- `WMS GetCapabilities request <https://www.sciencebase.gov/catalogMaps/mapping/ows/4f70b219e4b058caae3f8e19?service=wms&request=getcapabilities&version=1.3.0>`_ for the **USGS** **NBD**
 - `OWSLib Documentation <https://owslib.readthedocs.io/en/latest/>`_ (helpful python library)
