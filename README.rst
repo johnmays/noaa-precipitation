@@ -1,9 +1,9 @@
 NOAA Precipitation Data: Exploring Rainy Weather in the U.S.
 ============================================================ 
-.. image:: ./assets/New_york_rain.jpg
-  :width: 400
-  :alt: New York City Street with rain
-*A rainy day in NYC (src: Wikimedia Commons)*
+.. image:: ./assets/nyc_1.jpg
+  :width: 600
+  :alt: New York City Street with rain and fog
+*A rainy & foggy afternoon in NYC (src: Wikimedia Commons)*
 
 Useful Definitions & Acronyms for the Uninitiated:
 ==================================================
