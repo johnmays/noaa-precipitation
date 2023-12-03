@@ -1,17 +1,28 @@
 Documentation:
-    ✔ rst file README @done(23-12-01 20:12)
+    ✔ rst README @done(23-12-01 20:12)
+    ☐ add image to README
     ☐ mention stack
+    ☐ point to central notebook
+    ☐ add map(s) & a few tables to README
     ☐ mention motivation
+        - I enjoy rain
+        - unreliable info online (filter by city size)
+        - curious about where I should go to enjoy rain
     ✔ add definitions @done(23-12-01 20:12)
     ☐ describe how data is organized (GSOY, GSOM, by station, etc)
     ✔ add potential faults (notes about sample size & only measuring from one station) @done(23-12-02 17:53)
+    ☐ add statistical faults section
+        - no way to know if weather stations collect the same (trusting NOAA that they do)
+    ☐ docstrings & commenting on all of the code
 
 Code:
     ✔ download data csv's @done(23-12-01 20:12)
     ☐ draw rainiest places on a map
     ✔ rank rainiest places by certain metrics and display top ten or so side by side @done(23-12-02 17:53)
     ✔ download a bunch of weather stations at once @done(23-12-02 17:53)
-    ☐ add a side-by-side method for the series
+    ✔ add a side-by-side method for the series @done(23-12-03 03:52)
+    ☐ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest)
+    ☐ add snow & other precipitation to one col
 
 Data:
     ✔ add Cincinnati to cities comparison @done(23-12-02 19:36)
@@ -19,7 +30,7 @@ Data:
     ✔ add Astoria, OR @done(23-12-02 19:40)
     ✔ add Annette, AL ? @done(23-12-02 20:03)
     ☐ reorganize dict to include town type (CITY, TOWN)
-    ☐ reorganized dict to include state
+    ☐ reorganize dict to include state
 
 Misc:
     ☐ add a python package obj on GH?
@@ -27,4 +38,4 @@ Misc:
 
 Ideas:
     ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
-    ☐ rain lovers score for GSOY and GSOM (GSOY being much simpler)
+    ☐ rain enjoyers score for GSOY and GSOM (GSOY being much simpler)
