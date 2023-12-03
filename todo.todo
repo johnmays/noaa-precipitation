@@ -14,10 +14,12 @@ Code:
     ☐ add a side-by-side method for the series
 
 Data:
-    ☐ add Cincinnati to cities comparison
-    ☐ add Rochester back
-    ☐ add Astoria, OR
-    ☐ add Annette, AL ?
+    ✔ add Cincinnati to cities comparison @done(23-12-02 19:36)
+    ✔ add Rochester back @done(23-12-02 19:37)
+    ✔ add Astoria, OR @done(23-12-02 19:40)
+    ✔ add Annette, AL ? @done(23-12-02 20:03)
+    ☐ reorganize dict to include town type (CITY, TOWN)
+    ☐ reorganized dict to include state
 
 Misc:
     ☐ add a python package obj on GH?
