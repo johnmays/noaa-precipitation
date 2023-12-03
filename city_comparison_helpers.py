@@ -39,3 +39,21 @@ def total_concat(city_dict, columns, csv_dir = './data/GSOY/',
     # restrict df to important columns only: 
     total_df = total_df[(columns + ["CITY"])]
     return total_df
+
+def series_comparison(series1:pd.Series, series2:pd.Series, titles=[]) -> None:
+    ''' A method for printing two pandas series side by side
+    
+    Args:
+        series1, series2::pd.Series: two pandas series of the same length
+        titles(optional):
+    Returns:
+        None
+    '''
+    series1 = series1.to_string().split("\n")
+    series2 = series2.to_string().split("\n")
+    longest_string = max(map((lambda x: len(x)), series1))
+    if titles != []:
+        longest_string = max(longest_string, len(titles[0]))
+        print(titles[0].ljust(longest_string, ' ') + " | " + titles[1])
+    for i in range(len(series2)):
+        print(series1[i].ljust(longest_string, ' ') + " | " + series2[i])    
