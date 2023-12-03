@@ -1,5 +1,10 @@
-NOAA Precipitation Data:
-========================
+NOAA Precipitation Data: Exploring Rainy Weather in the U.S.
+============================================================ 
+.. image:: ./assets/New_york_rain.jpg
+  :width: 400
+  :alt: New York City Street with rain
+*A rainy day in NYC (src: Wikimedia Commons)*
+
 Useful Definitions & Acronyms for the Uninitiated:
 ==================================================
 - **NOAA:** National Oceanic and Atmospheric Administration; the US agecy responsible for for dealing with climate and the like
