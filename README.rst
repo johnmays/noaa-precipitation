@@ -79,7 +79,7 @@ But what about other ways to quantify "rainiest"?  Does the amount of rain count
 
 But what about the most total precipitation?  If we include snow, looking at towns and cities:
 
-.. list-table:: Most Precipitous Cities by Total Rainfall
+.. list-table:: Cities with the Most Total Precipitation
    :widths: 35 60
    :header-rows: 1
 
