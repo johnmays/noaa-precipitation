@@ -41,7 +41,7 @@ By the metric of days with rain per year, the top five cities (reasonably large 
 
 But if you consider any size urban area (towns, cities, etc.), the list is completely different:
 
-.. list-table:: Rainiest Towns by Days of Rainfall
+.. list-table:: Rainiest Towns & Cities by Days of Rainfall
    :widths: 35 60
    :header-rows: 1
 
@@ -85,18 +85,24 @@ But what about the most total precipitation?  If we include snow, looking at tow
 
    * - City
      - Median mm of total precipitation per year from 2011-2021
-   * - Presque Isle
+   * - Presque Isle, ME
      - 4278.70
-   * - Syracuse
+   * - Syracuse, NY
      - 4008.80
-   * - Driggs
+   * - Driggs, ID
      - 3840.00
-   * - Annette
+   * - Annette, AK
      - 3826.20
-   * - Brassau Dam
+   * - Brassau Dam, ME
      - 3543.80
 
-See more extensive tables in `this notebook. <./src/city_comparison.ipynb>`_
+See more extensive tables in `the main notebook. <./src/city_comparison.ipynb>`_
+
+Here are all of the cities (without Annette) on a U.S. Map:
+
+.. image:: ./assets/precipitation_map_01.png
+  :width: 800
+  :alt: Map of the continental U.S. with rainy cities shown
 
 Resources:
 ==========
