@@ -17,6 +17,87 @@ Useful Definitions & Acronyms for the Uninitiated:
 - **WMS:** Web Map Service; one of those OGC standardizations for an interface for requesting "map data" (images of geospatial data) from a server
 - **NBD:** National Boundaries Dataset; the USGS's geospatial data, accessible online through a WMS, of global boundaries. There are boundaries for countries, US states, reservations, protected lands, you name it.
 
+Results:
+========
+What is the rainiest city in the U.S.?  Depending on the parameters of your argument and how you choose to quantify this, that question has a few answers.
+By the metric of days with rain per year, the top five cities (reasonably large ones) are:
+
+.. list-table:: Rainiest Cities by Days of Rainfall
+   :widths: 35 60
+   :header-rows: 1
+
+   * - City
+     - Median no. of rainy days per year from 2011-2021
+   * - Rochester, NY
+     - 179.5
+   * - Syracuse, NY
+     - 177.0
+   * - Seattle, WA
+     - 176.0
+   * - Buffalo, NY
+     - 167.0
+   * - Cleveland, OH
+     - 163.0
+
+But if you consider any size urban area (towns, cities, etc.), the list is completely different:
+
+.. list-table:: Rainiest Towns by Days of Rainfall
+   :widths: 35 60
+   :header-rows: 1
+
+   * - City
+     - Median no. of rainy days per year from 2011-2021
+   * - Annette, AK
+     - 237.0
+   * - Forks, WA
+     - 231.0
+   * - Quillayute, WA
+     - 200.0
+   * - Astoria, OR
+     - 199.0
+   * - Aberdeen, WA
+     - 195.0
+
+But what about other ways to quantify "rainiest"?  Does the amount of rain count for nothing.  The town ranking doesn't change that much, but the major cities' sure does:
+
+.. list-table:: Rainiest Cities by Total Rainfall
+   :widths: 35 60
+   :header-rows: 1
+
+   * - City
+     - Median mm of rain per year from 2011-2021
+   * - New Orleans, LA
+     - 1734.50
+   * - Miami, FL
+     - 1676.00
+   * - Houston, TX
+     - 1293.00
+   * - New York City, NY
+     - 1177.30
+   * - Cincinnati, OH
+     - 1166.30
+
+But what about the most total precipitation?  If we include snow, looking at towns and cities:
+
+.. list-table:: Most Precipitous Cities by Total Rainfall
+   :widths: 35 60
+   :header-rows: 1
+
+   * - City
+     - Median mm of total precipitation per year from 2011-2021
+   * - Presque Isle
+     - 4278.70
+   * - Syracuse
+     - 4008.80
+   * - Driggs
+     - 3840.00
+   * - Annette
+     - 3826.20
+   * - Brassau Dam
+     - 3543.80
+
+See more extensive tables in `this notebook. <./src/city_comparison.ipynb>`_
+
 Resources:
 ==========
 - `Precipitation Data Overview <https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00947/html>`_ on the NOAA website
