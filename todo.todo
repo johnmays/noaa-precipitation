@@ -14,6 +14,7 @@ Documentation:
     ☐ add statistical faults section
         - no way to know if weather stations collect the same (trusting NOAA that they do)
     ☐ docstrings & commenting on all of the code
+    ☐ add states to city names in README
 
 Code:
     ✔ download data csv's @done(23-12-01 20:12)
@@ -22,14 +23,16 @@ Code:
     ✔ download a bunch of weather stations at once @done(23-12-02 17:53)
     ✔ add a side-by-side method for the series @done(23-12-03 03:52)
     ☐ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest)
-    ☐ add snow & other precipitation to one col
+    ✔ add snow & other precipitation to one col @done(23-12-03 20:23)
+    ☐ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians
 
 Data:
     ✔ add Cincinnati to cities comparison @done(23-12-02 19:36)
     ✔ add Rochester back @done(23-12-02 19:37)
     ✔ add Astoria, OR @done(23-12-02 19:40)
     ✔ add Annette, AL ? @done(23-12-02 20:03)
-    ☐ add Chicago
+    ✔ add Chicago @done(23-12-03 20:43)
+    ☐ add that town in Hawaii
     ✔ reorganize dict to include town type (CITY, TOWN) @done(23-12-03 19:49)
     ✔ reorganize dict to include state @done(23-12-03 19:39)
     ✔ turn dict into pd schema @done(23-12-03 19:39)
@@ -42,3 +45,4 @@ Misc:
 Ideas:
     ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
     ☐ rain enjoyers score for GSOY and GSOM (GSOY being much simpler)
+    ☐ maybe move enormous explicit schema from python to its own CSV
