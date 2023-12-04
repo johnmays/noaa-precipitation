@@ -4,6 +4,8 @@ partial_GSOY_schema = pd.DataFrame(
     {
         "Column" : [
             "DATE",
+            "LATITUDE",
+            "LONGITUDE",
             "PRCP",
             "SNOW",
             "DYFG",
@@ -13,10 +15,12 @@ partial_GSOY_schema = pd.DataFrame(
             "DP01",
             "DP10",
             "DP1X",
-            "DSNW"
+            "DSNW",
         ],
         "Description" : [
             "year AD",
+            "",
+            "",
             "total annual precipitation in inches",
             "total annual snowfall in inches",
             "number of days with fog",
