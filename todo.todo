@@ -1,6 +1,6 @@
 Documentation:
     ✔ rst README @done(23-12-01 20:12)
-    ☐ add image to README
+    ✔ add image to README @done(23-12-03 04:58)
     ☐ mention stack
     ☐ point to central notebook
     ☐ add map(s) & a few tables to README
@@ -29,11 +29,14 @@ Data:
     ✔ add Rochester back @done(23-12-02 19:37)
     ✔ add Astoria, OR @done(23-12-02 19:40)
     ✔ add Annette, AL ? @done(23-12-02 20:03)
-    ☐ reorganize dict to include town type (CITY, TOWN)
-    ☐ reorganize dict to include state
+    ☐ add Chicago
+    ✔ reorganize dict to include town type (CITY, TOWN) @done(23-12-03 19:49)
+    ✔ reorganize dict to include state @done(23-12-03 19:39)
+    ✔ turn dict into pd schema @done(23-12-03 19:39)
 
 Misc:
     ☐ add a python package obj on GH?
+    ☐ add some of these snippets to my seed repo for future pandas usage
     ☐ rearrange repo w/ "code" folder & all that
 
 Ideas:

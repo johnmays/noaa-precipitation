@@ -2,57 +2,28 @@
 
 import pandas as pd
 
-partial_schema = pd.DataFrame(
-    {
-        "Column" : [
-            "DATE",
-            "PRCP",
-            "SNOW",
-            "DYFG",
-            "DYHF",
-            "DYTS",
-            "EMXP",
-            "DP01",
-            "DP10",
-            "DP1X",
-            "DSNW"
-        ],
-        "Description" : [
-            "year AD",
-            "total annual precipitation in inches",
-            "total annual snowfall in inches",
-            "number of days with fog",
-            "number of days with 'heavy' fog",
-            "number of days with thunderstorms",
-            "highest daily total of precipitation in inches",
-            "number of days with over 0.01 inches of unspecified \
-            precipitation, probably rain w/o snow",
-            "number of days with over 0.10 inches of unspecified \
-            precipitation, probably rain w/o snow",
-            "number of days with over 1.00 inches of unspecified \
-            precipitation, probably rain w/o snow",
-            "number of days with over 1.00 inches of snowfall"
-        ]
-    }
-).set_index("Column")
-
-def check_years(city_dict, csv_dir = './data/GSOY/', rng=(2012,2021)):
+def check_years(city_schema, csv_dir = '../data/GSOY/', rng=(2012,2021)):
     ''' Iterates through CSVs and tells me which places are missing
         which years.
     '''
-    for city, csv_name in city_dict.items():
-        city_df = pd.read_csv((csv_dir + csv_name + ".csv"))
+    any_missing_flag = False # true if ANY years are missing in any data
+    for _, row in city_schema.iterrows():
+        city_df = pd.read_csv((csv_dir + row['Station'] + ".csv"))
         years = list(city_df["DATE"])
-        any_missing_flag = False
+        missing_flag = False # true if years are missing in this city
         for year in range(rng[0], (rng[1]+1)):
             if year not in years:
-                if any_missing_flag == False:
-                    print(city + " is missing years:")
+                if missing_flag == False:
+                    print(row['City'] + " is missing years:")
+                    missing_flag = True
                     any_missing_flag = True
                 print(year)
+    if any_missing_flag == False:
+        print("There are no missing years in the data.")
+        
 
 
-def total_concat(city_dict, columns, csv_dir = './data/GSOY/',
+def total_concat(city_schema, columns, csv_dir = '../data/GSOY/',
                 rng=(2012, 2022)):
     ''' Concatenates all of the individual cities' csvs together in one
     data frame, adding a "CITY" column & restricting to the years
@@ -61,11 +32,11 @@ def total_concat(city_dict, columns, csv_dir = './data/GSOY/',
     # initializing empty df:
     total_df = None
     # stitch all of the data frames together:
-    for i, (city, csv_name) in enumerate(city_dict.items()):
-        city_df = pd.read_csv((csv_dir + csv_name + ".csv"))
+    for i, row in city_schema.iterrows():
+        city_df = pd.read_csv((csv_dir + row['Station'] + ".csv"))
         city_df = city_df[city_df['DATE'].isin(range(rng[0], (rng[1] + 1)))]
         # add city name to DF:
-        city_df["CITY"] = city
+        city_df["CITY"] = row['City']
         if i == 0:
             total_df = city_df
         else:
@@ -92,7 +63,7 @@ def series_comparison(series1:pd.Series, series2:pd.Series, titles=[]) -> None:
     for i in range(len(series2)):
         print(series1[i].ljust(longest_string, ' ') + " | " + series2[i])  
 
-def view_city(city_name, city_dict, columns, csv_dir = './data/GSOY/', 
+def view_city(city_name, city_dict, columns, csv_dir = '../data/GSOY/', 
               rng=(2012, 2022)):
     '''
     '''
