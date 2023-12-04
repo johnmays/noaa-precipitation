@@ -98,11 +98,17 @@ But what about the most total precipitation?  If we include snow, looking at tow
 
 See more extensive tables in `the main notebook. <./src/city_comparison.ipynb>`_
 
-Here are all of the cities (without Annette) on a U.S. Map:
+Here are all of the cities (without Annette, AK) on a U.S. Map:
 
 .. image:: ./assets/precipitation_map_01.png
   :width: 800
   :alt: Map of the continental U.S. with rainy cities shown
+
+and Washington State as well:
+
+.. image:: ./assets/precipitation_map_02.png
+  :width: 600
+  :alt: Map of the Washington State with rainy cities shown
 
 Resources:
 ==========

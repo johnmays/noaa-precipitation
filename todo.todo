@@ -3,7 +3,9 @@ Documentation:
     ✔ add image to README @done(23-12-03 04:58)
     ☐ mention stack
     ☐ point to central notebook
-    ☐ add map(s) & a few tables to README
+    ✔ add map(s) & a few tables to README @done(23-12-04 03:25)
+    ☐ Washington map w/ city names on README
+    ☐ add line about how to initialize virtualenv
     ☐ mention motivation
         - I enjoy rain
         - unreliable info online (filter by city size)
@@ -11,18 +13,18 @@ Documentation:
     ✔ add definitions @done(23-12-01 20:12)
     ☐ describe how data is organized (GSOY, GSOM, by station, etc)
     ✔ add potential faults (notes about sample size & only measuring from one station) @done(23-12-02 17:53)
-    ☐ add statistical faults section
+    ☐ add statistical faults section to README
         - no way to know if weather stations collect the same (trusting NOAA that they do)
     ☐ docstrings & commenting on all of the code
-    ☐ add states to city names in README
+    ✔ add states to city names in README @done(23-12-04 03:25)
 
 Code:
     ✔ download data csv's @done(23-12-01 20:12)
-    ☐ draw rainiest places on a map
+    ✔ draw rainiest places on a map @done(23-12-04 03:27)
     ✔ rank rainiest places by certain metrics and display top ten or so side by side @done(23-12-02 17:53)
     ✔ download a bunch of weather stations at once @done(23-12-02 17:53)
     ✔ add a side-by-side method for the series @done(23-12-03 03:52)
-    ☐ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest)
+    ✘ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest) @cancelled(23-12-04 03:27)
     ✔ add snow & other precipitation to one col @done(23-12-03 20:23)
     ✔ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians @done(23-12-04 01:58)
     ☐ add legend to map explaining size of dots
@@ -35,6 +37,7 @@ Data:
     ✔ add Annette, AL ? @done(23-12-02 20:03)
     ✔ add Chicago @done(23-12-03 20:43)
     ☐ add that town in Hawaii
+    ☐ add more towns in Washington
     ✔ reorganize dict to include town type (CITY, TOWN) @done(23-12-03 19:49)
     ✔ reorganize dict to include state @done(23-12-03 19:39)
     ✔ turn dict into pd schema @done(23-12-03 19:39)
@@ -42,7 +45,8 @@ Data:
 Misc:
     ☐ add a python package obj on GH?
     ☐ add some of these snippets to my seed repo for future pandas usage
-    ☐ rearrange repo w/ "code" folder & all that
+    ✔ rearrange repo w/ "code" folder & all that @done(23-12-04 03:27)
+    ☐ add license
 
 Ideas:
     ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
