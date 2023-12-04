@@ -1,6 +1,0 @@
-## Maps
-**Four tasks to do in this section:**
-1. unpack geojson or csv of U.S. borders
-2. associate weather stations with coordinates
-3. plot weather stations on map of United states
-4. plot a few individual states
