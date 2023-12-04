@@ -24,7 +24,9 @@ Code:
     ✔ add a side-by-side method for the series @done(23-12-03 03:52)
     ☐ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest)
     ✔ add snow & other precipitation to one col @done(23-12-03 20:23)
-    ☐ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians
+    ✔ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians @done(23-12-04 01:58)
+    ☐ add legend to map explaining size of dots
+    ☐ a few more maps
 
 Data:
     ✔ add Cincinnati to cities comparison @done(23-12-02 19:36)
