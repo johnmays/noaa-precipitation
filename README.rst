@@ -27,7 +27,7 @@ By the metric of days with rain per year, the top five cities (reasonably large 
    :header-rows: 1
 
    * - City
-     - Median no. of rainy days per year from 2011-2021
+     - Median no. of rainy days per year from 2012-2021
    * - Rochester, NY
      - 179.5
    * - Syracuse, NY
@@ -46,7 +46,7 @@ But if you consider any size urban area (towns, cities, etc.), the list is compl
    :header-rows: 1
 
    * - City
-     - Median no. of rainy days per year from 2011-2021
+     - Median no. of rainy days per year from 2012-2021
    * - Annette, AK
      - 237.0
    * - Forks, WA
@@ -65,7 +65,7 @@ But what about other ways to quantify "rainiest"?  Does the amount of rain count
    :header-rows: 1
 
    * - City
-     - Median mm of rain per year from 2011-2021
+     - Median mm of rain per year from 2012-2021
    * - New Orleans, LA
      - 1734.50
    * - Miami, FL
@@ -84,7 +84,7 @@ But what about the most total precipitation?  If we include snow, looking at tow
    :header-rows: 1
 
    * - City
-     - Median mm of total precipitation per year from 2011-2021
+     - Median mm of total precipitation per year from 2012-2021
    * - Presque Isle, ME
      - 4278.70
    * - Syracuse, NY
@@ -96,7 +96,7 @@ But what about the most total precipitation?  If we include snow, looking at tow
    * - Brassau Dam, ME
      - 3543.80
 
-See more extensive tables in `the main notebook. <./src/city_comparison.ipynb>`_
+See more extensive tables in `the main notebook. <./city_comparison/city_comparison.ipynb>`_
 
 Here are all of the cities (without Annette, AK) on a U.S. Map:
 

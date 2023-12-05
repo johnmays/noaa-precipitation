@@ -4,8 +4,9 @@ Documentation:
     ☐ mention stack
     ☐ point to central notebook
     ✔ add map(s) & a few tables to README @done(23-12-04 03:25)
-    ☐ Washington map w/ city names on README
+    ✔ Washington map w/ city names on README @done(23-12-04 20:36)
     ☐ add line about how to initialize virtualenv
+    ✔ fix link to main notebook in README @done(23-12-04 20:36)
     ☐ mention motivation
         - I enjoy rain
         - unreliable info online (filter by city size)
@@ -13,7 +14,7 @@ Documentation:
     ✔ add definitions @done(23-12-01 20:12)
     ☐ describe how data is organized (GSOY, GSOM, by station, etc)
     ✔ add potential faults (notes about sample size & only measuring from one station) @done(23-12-02 17:53)
-    ☐ add statistical faults section to README
+    ☐ add statistical faults section to README & remove from NB (maybe include reference there)
         - no way to know if weather stations collect the same (trusting NOAA that they do)
     ☐ docstrings & commenting on all of the code
     ✔ add states to city names in README @done(23-12-04 03:25)
@@ -27,7 +28,7 @@ Code:
     ✘ compare rainy day series (0.01, 0.1, 1) (maybe just lowest & highest) @cancelled(23-12-04 03:27)
     ✔ add snow & other precipitation to one col @done(23-12-03 20:23)
     ✔ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians @done(23-12-04 01:58)
-    ☐ add legend to map explaining size of dots
+    ✔ add legend to map explaining size of dots @done(23-12-04 20:37)
     ☐ a few more maps
 
 Data:
@@ -36,8 +37,8 @@ Data:
     ✔ add Astoria, OR @done(23-12-02 19:40)
     ✔ add Annette, AL ? @done(23-12-02 20:03)
     ✔ add Chicago @done(23-12-03 20:43)
-    ☐ add that town in Hawaii
-    ☐ add more towns in Washington
+    ✔ add that town in Hawaii @done(23-12-04 20:37)
+    ✔ add more towns in Washington @done(23-12-04 20:37)
     ✔ reorganize dict to include town type (CITY, TOWN) @done(23-12-03 19:49)
     ✔ reorganize dict to include state @done(23-12-03 19:39)
     ✔ turn dict into pd schema @done(23-12-03 19:39)
