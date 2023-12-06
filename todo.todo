@@ -30,6 +30,7 @@ Code:
     ✔ right now you're summing the medians of snow and rain, but you should be summing before you calculate the medians @done(23-12-04 01:58)
     ✔ add legend to map explaining size of dots @done(23-12-04 20:37)
     ☐ a few more maps
+    ☐ fog map
 
 Data:
     ✔ add Cincinnati to cities comparison @done(23-12-02 19:36)
@@ -44,7 +45,7 @@ Data:
     ✔ turn dict into pd schema @done(23-12-03 19:39)
 
 Plots:
-    ☐ add a few town names in text to the Washington plot
+    ✔ add a few town names in text to the Washington plot @done(23-12-05 18:27)
 
 Misc:
     ☐ add a python package obj on GH?
@@ -55,4 +56,4 @@ Misc:
 Ideas:
     ☐ perhaps have a "rain enjoyers' score" that weighs distribution of rainy days, heaviness of rainfall, etc.
     ☐ rain enjoyers score for GSOY and GSOM (GSOY being much simpler)
-    ☐ maybe move enormous explicit schema from python to its own CSV
+    ✔ maybe move enormous explicit schema from python to its own CSV @done(23-12-05 18:32)

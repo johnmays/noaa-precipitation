@@ -30,13 +30,13 @@ By the metric of days with rain per year, the top five cities (reasonably large 
      - Median no. of rainy days per year from 2012-2021
    * - Rochester, NY
      - 179.5
-   * - Syracuse, NY
-     - 177.0
-   * - Seattle, WA
-     - 176.0
+   * - Syracuse,NY
+     - 174.5
+   * - Seattle,WA
+     - 168.5
    * - Buffalo, NY
      - 167.0
-   * - Cleveland, OH
+   * - Cleveland,OH
      - 163.0
 
 But if you consider any size urban area (towns, cities, etc.), the list is completely different:
@@ -47,35 +47,55 @@ But if you consider any size urban area (towns, cities, etc.), the list is compl
 
    * - City
      - Median no. of rainy days per year from 2012-2021
+   * - Hilo, HI
+     - 270.5
    * - Annette, AK
      - 237.0
-   * - Forks, WA
-     - 231.0
+   * - Forks,WA
+     - 224.5
+   * - Raymond, WA
+     - 220.0
    * - Quillayute, WA
-     - 200.0
+     - 196.0
    * - Astoria, OR
-     - 199.0
+     - 194.0
    * - Aberdeen, WA
-     - 195.0
+     - 193.0
+   * - Hoquiam, WA
+     - 182.5
+   * - Paradise, WA
+     - 182.0
+   * - Rochester, NY
+     - 179.5
 
-But what about other ways to quantify "rainiest"?  Does the amount of rain count for nothing.  The town ranking doesn't change that much, but the major cities' sure does:
+But what about other ways to quantify "rainiest"?  Does the amount of rain count for nothing.
 
-.. list-table:: Rainiest Cities by Total Rainfall
+.. list-table:: Rainiest Towns & Cities by Total Rainfall
    :widths: 35 60
    :header-rows: 1
 
    * - City
      - Median mm of rain per year from 2012-2021
-   * - New Orleans, LA
-     - 1734.50
-   * - Miami, FL
-     - 1676.00
-   * - Houston, TX
-     - 1293.00
-   * - New York City, NY
-     - 1177.30
-   * - Cincinnati, OH
-     - 1166.30
+   * - Annette
+     - 3782.85
+   * - Paradise
+     - 3275.50
+   * - Quinault
+     - 3166.45
+   * - Forks
+     - 3103.75
+   * - Hilo
+     - 3007.15
+   * - Quillayute
+     - 2733.55
+   * - Aberdeen
+     - 2336.75
+   * - Raymond
+     - 2326.75
+   * - Tillamook
+     - 2032.15
+   * - Brevard
+     - 1997.40
 
 But what about the most total precipitation?  If we include snow, looking at towns and cities:
 
@@ -86,15 +106,15 @@ But what about the most total precipitation?  If we include snow, looking at tow
    * - City
      - Median mm of total precipitation per year from 2012-2021
    * - Presque Isle, ME
-     - 4278.70
+     - 4444.65
    * - Syracuse, NY
-     - 4008.80
-   * - Driggs, ID
-     - 3840.00
+     - 43962.00
    * - Annette, AK
-     - 3826.20
+     - 3782.85
+   * - Driggs, ID
+     - 3769.45
    * - Brassau Dam, ME
-     - 3543.80
+     - 3572.30
 
 See more extensive tables in `the main notebook. <./city_comparison/city_comparison.ipynb>`_
 
