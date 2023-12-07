@@ -5,6 +5,32 @@ NOAA Precipitation Data: Exploring Rainy Weather in the U.S.
   :alt: New York City Street with rain and fog
 *A rainy & foggy afternoon in NYC (src: Wikimedia Commons)*
 
+Motivation:
+===========
+There are two whys and two answers?
+1. Why look at the rain data in the U.S.?  I am a rain-enjoyer: If I could choose exactly where to live, places with high rain and stormy weather would be at the top of my list.  I like the sun under certain conditions, but rain, fog, thunder, and snow do not bring me down, rather, they are aesthetically fulfilling and give me energy to handle the day.
+2. Why not consult an existing list?  The internet is full of conflicting information on what the "rainiest places in the U.S." are.  And behind all internet top-ten lists, there is an underlying reality to be understood.  How do you quantify "raininess" and if a place is rainy, well, is the entire place that rainy?  If one weather station in Seattle reports x number of rainy days per year, how much does that translate to somewhere, say, 40 minutes outside of Seattle?  Also, quite a few lists seem to either not include small towns, or only selectively include them.  Well I would like to know how small towns fare as well, because I know, just speaking in terms of probability, that it is unlikely that the rainiest place in any U.S. state is a "city".  These are the things I aim to explore in this repository.
+
+Environment & Stack:
+====================
+I am using Python 3.8.9 w/ a list of packages that can be found in `requirements.txt <./requirements.txt>`_  I also make heavy use of jupyter notebooks.
+If you would like to run this project yourself, execute the following commands in your shell:
+
+```sh
+$ git clone https://github.com/johnmays/noaa-precipitation.git
+$ cd noaa-precipitation
+noaa-precipitation $ pip install virtualenv
+noaa-precipitation $ virtualenv -p <optional path to python ~3.8> venv
+noaa-precipitation $ source venv/bin/activate
+noaa-precipitation $ pip install -r requirements.txt
+```
+
+Data:
+=====
+I am using publicly available **NOAA** data downloaded from `nceii.noa.gov <https://www.ncei.noaa.gov/access>`_.  This data is part of the global summary of the year (**GSOY**) dataset, which aggregates daily weather station data into yearly weather metrics like *"annual days with any rainfall"* and *"total annual millimeters of snowfall"*.  I wish there was a more efficient way to search for and access this data, but for now, I go to the search for a town/city I am curious about and look for suitable stations, then download their CSVs.  I specifically look for stations that have a complete set of yearly data from 2012 to 2021.
+
+*An important note*: **GSOY** data is not by county or by city, but rather, by weather station.  Many cities have several weather stations and an airport, each with a long-running and complete dataset.  However, many towns only have one weather station near them that reported data to this service, and only did it for a few years in the early 1900's.  That is why some notoriously rainly towns, like Seaside, OR and even Providence, RI do not show up in my analysis, unfortunately.
+
 Useful Definitions & Acronyms for the Uninitiated:
 ==================================================
 - **NOAA:** National Oceanic and Atmospheric Administration; the US agecy responsible for for dealing with climate and the like
