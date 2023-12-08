@@ -77,7 +77,7 @@
 75,Raleigh,NC,USW00013722,City
 76,Greenville,SC,USW00013886,City
 77,Hilton Head,SC,US1SCBF0002,Town
-78,Glen Falls,NY,USW00014750,Town
+78,Glens Falls,NY,USW00014750,Town
 79,Ithaca,NY,USC00304174,Town
 80,Philadelphia,PA,USW00013739,City
 81,Washington,DC,USW00013743,City
@@ -93,3 +93,7 @@
 91,Alexandria,MN,USW00014910,Town
 92,Niles,MI,USC00205892,Town
 93,Grand Rapics,MI,USW00094860,City
+94,Albany,NY,USW00014735,City
+96,Niagara Falls,NY,USW00004724,Town
+97,Westchester,NY,USW00094745,Town
+98,Rome,NY,USW00064775,Town
