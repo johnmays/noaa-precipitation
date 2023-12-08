@@ -110,25 +110,25 @@ But what about other ways to quantify "rainiest"?  Does the amount of rain count
 
    * - City
      - Median mm of rain per year from 2012-2021
-   * - Annette
+   * - Annette, AK
      - 3782.85
-   * - Paradise
+   * - Paradise, WA
      - 3275.50
-   * - Quinault
+   * - Quinault, WA
      - 3166.45
-   * - Forks
+   * - Forks, WA
      - 3103.75
-   * - Hilo
+   * - Hilo, HI
      - 3007.15
-   * - Quillayute
+   * - Quillayute, WA
      - 2733.55
-   * - Aberdeen
+   * - Aberdeen, WA
      - 2336.75
-   * - Raymond
+   * - Raymond, WA
      - 2326.75
-   * - Tillamook
+   * - Tillamook, OR
      - 2032.15
-   * - Brevard
+   * - Brevard, NC
      - 1997.40
 
 But what about the most total precipitation?  If we include snow, looking at towns and cities:
