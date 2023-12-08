@@ -1,18 +1,18 @@
 Documentation:
     ✔ rst README @done(23-12-01 20:12)
     ✔ add image to README @done(23-12-03 04:58)
-    ☐ mention stack
-    ☐ point to central notebook
+    ✔ mention stack @done(23-12-07 03:48)
+    ✔ point to central notebook @done(23-12-07 03:48)
     ✔ add map(s) & a few tables to README @done(23-12-04 03:25)
     ✔ Washington map w/ city names on README @done(23-12-04 20:36)
-    ☐ add line about how to initialize virtualenv
+    ✔ add line about how to initialize virtualenv @done(23-12-07 03:48)
     ✔ fix link to main notebook in README @done(23-12-04 20:36)
-    ☐ mention motivation
-        - I enjoy rain
-        - unreliable info online (filter by city size)
-        - curious about where I should go to enjoy rain
+    ✔ mention motivation @done(23-12-07 03:48)
+        ✔ I enjoy rain @done(23-12-07 03:48)
+        ✔ unreliable info online (filter by city size) @done(23-12-07 03:48)
+        ✔ curious about where I should go to enjoy rain @done(23-12-07 03:48)
     ✔ add definitions @done(23-12-01 20:12)
-    ☐ describe how data is organized (GSOY, GSOM, by station, etc)
+    ✔ describe how data is organized (GSOY, GSOM, by station, etc) @done(23-12-07 03:48)
     ✔ add potential faults (notes about sample size & only measuring from one station) @done(23-12-02 17:53)
     ☐ add statistical faults section to README & remove from NB (maybe include reference there)
         - no way to know if weather stations collect the same (trusting NOAA that they do)
@@ -43,6 +43,7 @@ Data:
     ✔ reorganize dict to include town type (CITY, TOWN) @done(23-12-03 19:49)
     ✔ reorganize dict to include state @done(23-12-03 19:39)
     ✔ turn dict into pd schema @done(23-12-03 19:39)
+    ✔ add Boston @done(23-12-07 23:37)
 
 Plots:
     ✔ add a few town names in text to the Washington plot @done(23-12-05 18:27)
